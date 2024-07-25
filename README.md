@@ -1,7 +1,7 @@
 # Douber Barber-Shop
 ### *Site para barbearia.*
 
-# ![logo](https://www.canva.com/design/DAGL54Q5ik4/IGEF1BkMf0F51azt4nccLA/edit?utm_content=DAGL54Q5ik4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+# ![logo](https://github.com/nailtonssantos/douber-barber-shop/blob/main/img/logo1.png)
 
  ### As tecnologias utilizadas nesse projeto foram
  * HTML
