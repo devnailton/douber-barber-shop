@@ -1,24 +1,18 @@
-# Barber-Shop
-### *Site simples de barbearia.*
+# Douber Barber-Shop
+### *Site para barbearia.*
 
-# ![logo](https://github.com/roberttsouza/barber-shop/blob/main/img/logo.png)
-
-## Essa é a interface do modelo para desktop.
-# ![desktop](https://github.com/roberttsouza/barber-shop/blob/main/gits/desktop.gif)
+# ![logo](https://www.canva.com/design/DAGL54Q5ik4/IGEF1BkMf0F51azt4nccLA/edit?utm_content=DAGL54Q5ik4&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 
  ### As tecnologias utilizadas nesse projeto foram
  * HTML
  * CSS
  * JAVASCRIPT
- 
- ### Logo abaixo você pode ver como ficou para mobile
- # ![mobile](https://github.com/roberttsouza/barber-shop/blob/main/gits/mobile.gif)
 
 ### Para utilizar esse site, basta:
-1 Baixar esse repositório em sua maquina
+1 Fazer um Clone do Repositório ou Baixar esse repositório em seu computador
 
-2 Extrair a pasta caso velha compactada
+2 Extrair a pasta compactada
 
-3 Abrir o arquivo index.html em seu navegador predileto
+3 Abrir o arquivo index.html em seu navegado
 
-### Se preferir pode [*Clicar Aqui*](https://barbearia.netlify.app/) para acessar o site
+###[*Acesse Online*](https://www.douber.com.br)
