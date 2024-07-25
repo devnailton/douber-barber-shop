@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Douber Barber Shop</title>
+</head>
+<body>
+
+    <header class="menu">
+        <div class="menu-container">
+            <a class="logo" href="#"><img src="img/logo1.png" alt="logo"></a>
+
+            <nav id="my-menu-nav" class="menu-nav">
+                <ul>
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <li><a href="#historia">conceito</a></li>
+                    <li><a href="#agendamento">Endereço</a></li>
+                    <li><a href="#servico">serviço</a></li>
+                    <li><a class="menu-agendamento-btn" href="#"><i class="fab fa-google-play"></i>agendamento</a></li>
+                </ul>
+            </nav>
+            <span class="menu-open" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+        </div>
+
+    </header>
+
+    <main class="intro" id="intro">
+        <div class="intro-container">
+            <h1>descubra um</h1>
+            <h1>novo <strong>estilo</strong> </h1>
+        </div>
+ 
+    </main>
+
+    <section class="historia" id="historia">
+        <div class="historia-container">
+
+            <h1>O Conceito</h1>
+            <div><img src="img/img2.jpg" alt="historia"></div>
+            <div><p>Inspirada nas clássicas barbearias nova-iorquinas dos filmes das décadas de 40, 50 e 60, a Douber Barber Shop, anteriormente conhecida como Texas Barber Shop, tem a missão de resgatar a cultura e os traços masculinos tradicionais.<br><br>Na Douber Barber Shop, colocamos o cliente em primeiro lugar. Acreditamos que um bom cuidado com a higiene e aparência refletem as virtudes de força, honra, integridade e sabedoria, conforme exaltadas na Bíblia. Cada visita é uma experiência única, onde oferecemos um atendimento impecável com toalhas quentes, os melhores cremes, espumas e produtos premium para preparar o rosto e cabelo dos nossos clientes, garantindo uma experiência incomparável e uma atenção especial aos detalhes.<br><br>Além disso, oferecemos uma linha exclusiva de produtos para compra, permitindo que você leve um pouco da nossa qualidade e excelência para sua casa. Nosso compromisso com a organização, qualidade e excelência é refletido em cada serviço que oferecemos. 
+            </p></div>
+        </div>
+
+    </section>
+
+    <section class="servico" id="servico">
+        <div class="servico-container">
+            <h1>Serviços</h1>
+            <p>Veja a nosso tabela de serviços e preços - Público Masculino</p>
+
+            
+            <div class="tabela">
+                <div class="tabela1">
+                    <p><strong>BARBA</strong> .........................................R$30</p>
+                    <p><strong>CABELO</strong> .......................................R$30</p>
+                    <p><strong>2 CORTES POR MÊS</strong> ...................R$50</p>
+                    <p><strong>2 BARBAS POR MÊS</strong> ...................R$50</p>
+                    <p><strong>PINTURA</strong> .....................................R$80</p>
+                    <p><strong>DEPILAÇÃO ORELHA</strong> ..................R$15</p>
+                </div>
+
+                <div class="tabela1">
+                    <p><strong>DEPILAÇÃO NASAL</strong> ...................R$15</p>
+                    <p><strong>CORTE SIMPLES MÁQUINA</strong> ......R$25</p>
+                    <p><strong>SOMBRANCELHA</strong> ......................R$10</p>
+                    <p><strong>DIA DO NOIVO</strong> .........................R$120</p>
+                    <p><strong>LUZES</strong> ........................................R$80</p>
+                    <p><strong>PEZINHO</strong> ...................................R$15</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="agendamento" id="agendamento">
+        <div class="agendamento-container">
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15303.292835607743!2d-54.607739!3d-16.4844872!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9379c91daaf7013d%3A0x4c12554284b7c!2sTEXAS%20BARBER%20SHOP!5e0!3m2!1spt-BR!2sbr!4v1721866198065!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            <div class="agendamento-item">
+                <h1>AGENDE AGORA PELO APLICATIVO</h1>
+                <p>click agora mesmo no botão abaixo, e agende seu horário.</p>
+
+                <a href="#"><i class="fab fa-google-play"></i> agende seu horario</a>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <img src="img/footer.png" alt="barber-shop">
+
+            <div class="footer-item">
+                <h1>Endereço</h1>
+                <p>Alameda dos Lírios, N° 308 - Colina Verde, Rondonópolis-MT, CEP.: 78735-127</p>
+            </div>
+
+            <div class="footer-item">
+                <h1>Sugestões</h1>
+                <a>(66) 9 8409-2030</a>
+            </div>
+
+            <div class="footer-social">
+                <h1>Redes sociais</h1>
+                <ul>
+                    <li><a href="#" name="facebook"><i class="fab fa-2x fa-facebook"></i></a></li>
+                    <li><a href="#" alt="instagram"><i class="fab fa-2x fa-instagram"></i></a></li>
+                    <li><a href="#" alt="youtube"><i class="fab fa-2x fa-youtube"></i></a></li>
+                </ul>
+            </div>
+
+
+            
+        </div>
+    </footer>
+    
+            <div class="criador">
+                
+                <p> &COPY; Desenvolvido por - <strong>Apey Sistemas</strong> - 2024</p>
+            </div>
+
+<script src="formatacao.js"></script>
+
+</body>
+</html>
